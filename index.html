@@ -28,7 +28,7 @@
         font-family: 'Berkshire Swash', cursive;
         text-align: center;
         font-size: 25px;
-        color: #aaaaaa;
+        color: #ffc125;
         margin: 60px 0 0 0;
       }
       h5 {
@@ -38,16 +38,50 @@
         font-family: helvetica, sans-serif;
         text-align: center;
       }
+      .box{
+        border-radius: 25px;
+        background-color: #ffffff;
+        padding: 1px 1px;
+      }
+      img {
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 25px;
+    }
+    @media only screen and (max-width: 500px) {
+      body {
+          background-color: #003831;
+      }
+      h1 {
+        font-size: 30px;
+        margin: 30px 0 0 0;
+      }
+      h3 {
+        font-size: 15px;
+        margin: 30px 0 0 0;
+      }
+      h5 {
+        margin: 10px 0 0 0;
+        font-size: 10px;
+      }
+      .box{
+        border-radius: 20px;
+        background-color: #ffffff
+      }
+  }
     </style>
   </head>
   <body>
     <h1> Space Explore Inc. </h1>
-    <h3> What we do: </h3>
+    <div class="box">
+    <h3> What We Do: </h3>
     <h5> Space Explore Inc. is the first company that is dedicated to safely transport human beings to the Moon or Mars and back. </h5>
     <br>
     <h3> Learn More: </h3>
     <h5>For $1,000,000 roundtrip, Space Explore Inc. will take you to your choice of Mars or the Moon and return you back to Earth. This trip will allow those besides astronauts to experience space and be given the chance to see more than just the Earth. They will be able to see the entity of the universe and just how small our beloved planet is in comparison. Call a Space Explore Inc. representative today to book your trip!</h5>
-    <br>
     <br>
     <a href="/customer">
       Select here if you are a customer
@@ -60,11 +94,16 @@
     <a href="/pilot">
       Select here if you are a pilot
     </a>
-    <h3>Additional orgs in Space:</h3>
+    <h3>Additional Orgs in Space:</h3>
     <h5>&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://www.nasa.gov/" target="_blank">NASA</a>
     &nbsp;&nbsp;&nbsp;&nbsp;- <a href="http://www.virgingalactic.com/" target="_blank">Virgin Galactic</a>
     &nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://www.sncorp.com/" target="_blank">Sierra Nevada Corporation </a></h5>
     <br>
+    </div>
+    <br>
+    <a href="https://www.pexels.com/photo/landscape-nature-sky-person-33688/" target="_blank">
+      <img src="space.jpg" alt="Space">
+    </a>
     <br>
   </body>
 </html>
